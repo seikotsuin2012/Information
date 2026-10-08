@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西院整骨院 | 初回施術後アフターフォロー＆治療のご案内</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepnavy: {
+                            900: '#061E38',
+                            800: '#0A2A4A',
+                            700: '#113B66',
+                        },
+                        gold: {
+                            500: '#C5A059',
+                            600: '#AB8642',
+                            100: '#FBF7F0'
+                        },
+                        cream: {
+                            50: '#FAF8F5',
+                            100: '#F4EFEB'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Noto Serif JP"', 'serif'],
+                        sans: ['"Zen Kaku Gothic New"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts for High-End Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            background-color: #061E38;
+            color: #1E293B;
+        }
+        .serif-font {
+            font-family: 'Noto Serif JP', serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(160deg, #061E38 0%, #0A2A4A 60%, #113B66 100%);
+        }
+        .luxury-shadow {
+            box-shadow: 0 20px 40px -15px rgba(6, 30, 56, 0.08), 0 10px 20px -10px rgba(6, 30, 56, 0.05);
+        }
+        .brand-logo-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="antialiased bg-slate-900 text-slate-800 pb-20 lg:pb-0">
+
+    <!-- 全画面レイアウトコンテナ -->
+    <div class="w-full bg-cream-50 min-h-screen relative">
+
+        <!-- ヘッダー -->
+        <header class="bg-deepnavy-900 text-white sticky top-0 z-50 border-b border-gold-500/20 backdrop-blur-md bg-opacity-95 shadow-lg">
+            <div class="max-w-7xl mx-auto px-6 py-3.5 flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-white/10 rounded-xl p-1 flex items-center justify-center border border-gold-500/30">
+                        <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 12 L15 38 L25 38 L25 80 L75 80 L75 38 L85 38 Z" fill="#0A2A4A"/>
+                            <circle cx="45" cy="58" r="16" fill="#C5A059"/>
+                            <circle cx="39" cy="54" r="2" fill="#FFFFFF"/>
+                            <circle cx="51" cy="54" r="2" fill="#FFFFFF"/>
+                            <path d="M 40 62 Q 45 68 50 62" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <circle cx="70" cy="64" r="11" fill="#C5A059"/>
+                            <circle cx="66" cy="61" r="1.5" fill="#FFFFFF"/>
+                            <circle cx="74" cy="61" r="1.5" fill="#FFFFFF"/>
+                            <path d="M 67 67 Q 70 71 73 67" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="text-[9px] tracking-widest text-gold-500 font-bold block uppercase font-serif">SAIIN SEIKOTSUIN</span>
+                        <h1 class="text-base md:text-lg font-serif font-bold tracking-wider text-white">西院整骨院</h1>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://lin.ee/SSiLSTt" target="_blank" rel="noopener noreferrer" class="hidden sm:flex bg-[#06C755] hover:bg-[#05b34c] text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow items-center space-x-2 transition">
+                        <i class="fa-brands fa-line text-base"></i>
+                        <span>LINE公式予約</span>
+                    </a>
+                    <a href="tel:0753232773" class="bg-gold-500 hover:bg-gold-600 text-deepnavy-900 text-xs md:text-sm font-bold px-4.5 py-2.5 rounded-xl shadow-md flex items-center space-x-2 transition transform active:scale-95">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>075-323-2773</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ファーストビュー (パネル1: 表紙イメージ) -->
+        <section class="hero-gradient text-white py-16 md:py-24 px-6 text-center relative overflow-hidden">
+            <div class="absolute -right-24 -top-24 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"><span></span></div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="mx-auto mb-6 w-24 h-24 bg-white rounded-2xl shadow-xl p-2.5 border border-gold-500/40 flex items-center justify-center">
+                    <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 12 L15 38 L25 38 L25 80 L75 80 L75 38 L85 38 Z" fill="#0A2A4A"/>
+                        <circle cx="45" cy="58" r="16" fill="#C5A059"/>
+                        <circle cx="39" cy="54" r="2" fill="#FFFFFF"/>
+                        <circle cx="51" cy="54" r="2" fill="#FFFFFF"/>
+                        <path d="M 40 62 Q 45 68 50 62" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <circle cx="70" cy="64" r="11" fill="#C5A059"/>
+                        <circle cx="66" cy="61" r="1.5" fill="#FFFFFF"/>
+                        <circle cx="74" cy="61" r="1.5" fill="#FFFFFF"/>
+                        <path d="M 67 67 Q 70 71 73 67" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+
+                <div class="inline-block border border-gold-500/40 bg-gold-500/10 text-gold-500 text-xs px-5 py-1.5 rounded-full font-medium mb-6 tracking-widest shadow-inner">
+                    新患様 アフターフォローご案内
+                </div>
+                
+                <!-- 修正：「一生、快適」から始まる構成へ変更 -->
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif font-bold tracking-wide mb-4 leading-relaxed text-gold-500">
+                    一生、快適に動ける身体づくりへ。
+                </h2>
+                <h3 class="text-xl sm:text-2xl md:text-3xl font-serif font-bold tracking-wide mb-6 leading-relaxed text-white">
+                    本日はご来院いただき<br class="hidden sm:inline">誠にありがとうございました
+                </h3>
+                
+                <p class="text-sm md:text-base text-slate-300 mb-10 leading-relaxed max-w-2xl mx-auto">
+                    当院は「痛みを取る」ことだけを目的にしていません。原因を根本から見つめ直し、あなたの本来の健康を取り戻すサポートをいたします。
+                </p>
+
+                <div class="rounded-3xl overflow-hidden shadow-2xl border border-white/10 relative group max-w-3xl mx-auto bg-deepnavy-800">
+                    <img src="https://placehold.co/1200x520/0A2A4A/F4EFEB?text=Saiin+Seikotsuin+Entrance" alt="西院整骨院 外観" class="w-full h-64 md:h-80 object-cover opacity-90 transition duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-deepnavy-900 via-deepnavy-900/30 to-transparent flex flex-col justify-end p-6 md:p-8 text-left">
+                        <span class="text-xs text-gold-500 font-serif tracking-widest mb-1">パネル1（表紙イメージ）</span>
+                        <p class="text-white text-lg md:text-xl font-serif font-bold">治療のご案内 ～あなたの本来の健康を取り戻すために～</p>
+                        <p class="text-xs text-slate-300 mt-1 italic font-serif">For a Healthy Life</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 好転反応について (パネル5) -->
+        <section class="max-w-5xl mx-auto px-6 py-16">
+            <div class="bg-white rounded-3xl p-8 md:p-12 luxury-shadow border border-slate-200/60 relative">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-deepnavy-900 text-gold-500 text-xs font-serif font-bold px-6 py-1.5 rounded-full tracking-widest shadow-md border border-gold-500/30">
+                    パネル5（折り返し面）
+                </div>
+                
+                <div class="text-center mt-4 mb-8">
+                    <h3 class="text-2xl font-serif font-bold text-deepnavy-900 mb-2">
+                        好転反応について
+                    </h3>
+                    <p class="text-xs md:text-sm text-gold-600 font-medium tracking-wide">
+                        ～より良い身体へ向かう自然な反応です～
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-12 gap-8 items-center mb-8">
+                    <div class="md:col-span-5">
+                        <div class="rounded-2xl overflow-hidden shadow-md border border-slate-200/80 relative bg-cream-100 group">
+                            <img src="https://placehold.co/600x450/E2D9CE/0A2A4A?text=Body+Relaxation+After+Treatment" alt="好転反応のイメージ" class="w-full h-56 md:h-64 object-cover transition duration-500 group-hover:scale-105">
+                            <div class="absolute bottom-3 left-3 bg-deepnavy-900/80 backdrop-blur-sm text-gold-500 text-[11px] px-3 py-1 rounded-lg">
+                                自然な反応と回復の証拠
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-7 space-y-4 text-xs md:text-sm text-slate-600 leading-relaxed">
+                        <p>
+                            施術を受けた後や翌日に、身体がだるくなったり、眠気が出たり、今まで痛くななかった場所が痛むように感じることがあります。
+                        </p>
+                        <div class="bg-cream-50 p-5 rounded-2xl border border-gold-500/20 text-slate-700 relative">
+                            <div class="absolute top-4 left-4 text-gold-600 font-bold text-base">💡</div>
+                            <div class="pl-7">
+                                <p class="font-bold text-deepnavy-900 mb-1">なぜ起こるのでしょうか？</p>
+                                これは施術によって急激に血行が良くなり、人間が本来持っている自己回復力が引き出されている証拠です。身体が良くなる過程の正常な反応ですのでご安心ください。
+                            </div>
+                        </div>
+                        <p>
+                            症状が良くなっていくと、触った時の痛みも楽になっていきます。もし痛みが変わったり、不安なことがありましたら、次回の施術時に遠慮なく担当の先生にお伝えください。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-cream-50 p-6 rounded-3xl border border-slate-200/60">
+                    <h4 class="text-xs md:text-sm font-serif font-bold text-deepnavy-900 mb-4 flex items-center">
+                        <span class="w-2 h-4 bg-gold-500 rounded-full mr-2"></span>
+                        <span>こんな症状が一時的に現れることがあります</span>
+                    </h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                        <div class="bg-white p-3 rounded-xl flex items-center space-x-2 border border-slate-200/60 shadow-sm">
+                            <i class="fa-solid fa-check text-gold-600"></i>
+                            <span class="font-medium text-slate-700">身体のだるさ</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl flex items-center space-x-2 border border-slate-200/60 shadow-sm">
+                            <i class="fa-solid fa-check text-gold-600"></i>
+                            <span class="font-medium text-slate-700">眠気</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl flex items-center space-x-2 border border-slate-200/60 shadow-sm">
+                            <i class="fa-solid fa-check text-gold-600"></i>
+                            <span class="font-medium text-slate-700">今まで痛くなかった痛み</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl flex items-center space-x-2 border border-slate-200/60 shadow-sm">
+                            <i class="fa-solid fa-check text-gold-600"></i>
+                            <span class="font-medium text-slate-700">一時的な症状の変化</span>
+                        </div>
+                    </div>
+                    <div class="mt-5 text-center text-xs font-serif font-bold text-deepnavy-800 bg-gold-100/50 py-3 rounded-xl border border-gold-500/20">
+                        ✨ 身体が良くなるための大切なステップです。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 治療のご案内（3つのアプローチ） -->
+        <section class="bg-white border-t border-b border-slate-200/60 py-16 px-6">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-12">
+                    <span class="text-xs font-bold text-gold-600 tracking-widest uppercase block mb-2">Internal Panels 2 - 4</span>
+                    <h3 class="text-2xl md:text-3xl font-serif font-bold text-deepnavy-900 tracking-wide mb-2">
+                        根本から整え、痛みを繰り返さない身体へ
+                    </h3>
+                    <p class="text-xs md:text-sm text-slate-500">ー 3つのアプローチであなたの健康をトータルサポート ー</p>
+                </div>
+
+                <div class="space-y-12">
+                    <!-- アプローチ 01 -->
+                    <div class="bg-cream-50 rounded-3xl overflow-hidden luxury-shadow border border-slate-200/60 grid md:grid-cols-12 gap-0 items-center">
+                        <div class="md:col-span-5 relative h-64 md:h-full min-h-[280px]">
+                            <img src="https://placehold.co/600x450/113B66/F4EFEB?text=Spine+Correction+Treatment" alt="背骨ゆがみ矯正法" class="w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-deepnavy-900 text-gold-500 text-sm font-serif font-bold px-3.5 py-1.5 rounded-xl shadow border border-gold-500/30">
+                                01 パネル2
+                            </div>
+                        </div>
+                        <div class="md:col-span-7 p-6 md:p-8">
+                            <h4 class="text-base md:text-lg font-serif font-bold text-deepnavy-900 mb-1">背骨ゆがみ矯正法</h4>
+                            <p class="text-xs font-bold text-gold-600 mb-3">～痛みの根本原因にアプローチ～</p>
+                            <p class="text-xs md:text-sm text-slate-600 leading-relaxed mb-6">
+                                マッサージだけですぐに戻ってしまう痛みは、背骨の「ゆがみ」が原因かもしれません。当院の背骨ゆがみ矯正法は、身体の土台である背骨のゆがみをまっすぐに整えることで、全身のバランスを改善します。
+                            </p>
+                            <div class="bg-white p-4 rounded-2xl border border-slate-200/60 mb-5">
+                                <h5 class="text-xs font-serif font-bold text-deepnavy-900 mb-2.5 flex items-center">
+                                    <i class="fa-solid fa-square-check text-gold-600 mr-2"></i>こんな症状に
+                                </h5>
+                                <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                    <div>・ぎっくり腰</div>
+                                    <div>・寝違え</div>
+                                    <div>・慢性的な頭痛・腰痛</div>
+                                    <div>・ヘルニアや神経痛</div>
+                                    <div>・姿勢の崩れ</div>
+                                    <div>・骨格のゆがみからくる不調</div>
+                                </div>
+                            </div>
+                            <div class="text-center bg-deepnavy-900 text-white py-3 rounded-xl text-xs font-serif font-bold tracking-wider">
+                                正しい骨格で、動ける身体を取り戻す。
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- アプローチ 02 -->
+                    <div class="bg-cream-50 rounded-3xl overflow-hidden luxury-shadow border border-slate-200/60 grid md:grid-cols-12 gap-0 items-center">
+                        <div class="md:col-span-5 relative h-64 md:h-full min-h-[280px]">
+                            <img src="https://placehold.co/600x450/0A2A4A/F4EFEB?text=Shockmaster+Acoustic+Wave" alt="ショックマスター" class="w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-deepnavy-900 text-gold-500 text-sm font-serif font-bold px-3.5 py-1.5 rounded-xl shadow border border-gold-500/30">
+                                02 パネル3
+                            </div>
+                        </div>
+                        <div class="md:col-span-7 p-6 md:p-8">
+                            <h4 class="text-base md:text-lg font-serif font-bold text-deepnavy-900 mb-1">ショックマスター（体外衝撃波）</h4>
+                            <p class="text-xs font-bold text-gold-600 mb-3">～諦めかけていた頑固な痛みに～</p>
+                            <p class="text-xs md:text-sm text-slate-600 leading-relaxed mb-6">
+                                症状がきつい場合や、長引く痛みには「ショックマスター」をご提案します。強力な音波（圧力波）を連続的に患部に与えることで、手技では届かない深部の筋肉、腱、靭帯のしこり（硬結）を破壊・再生させます。
+                            </p>
+                            <div class="bg-white p-4 rounded-2xl border border-slate-200/60 mb-5">
+                                <h5 class="text-xs font-serif font-bold text-deepnavy-900 mb-2.5 flex items-center">
+                                    <i class="fa-solid fa-square-check text-gold-600 mr-2"></i>こんな症状に効果的
+                                </h5>
+                                <div class="grid grid-cols-2 gap-2 text-xs text-slate-600">
+                                    <div>・四十肩・五十肩</div>
+                                    <div>・足底腱膜炎</div>
+                                    <div>・アキレス腱炎</div>
+                                    <div>・ばね指</div>
+                                    <div>・シンスプリント</div>
+                                    <div>・長引く腰・筋の痛み など</div>
+                                </div>
+                            </div>
+                            <div class="text-center bg-deepnavy-900 text-white py-3 rounded-xl text-xs font-serif font-bold tracking-wider">
+                                深部に届く、再生を促す力。
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- アプローチ 03 -->
+                    <div class="bg-cream-50 rounded-3xl overflow-hidden luxury-shadow border border-slate-200/60 grid md:grid-cols-12 gap-0 items-center">
+                        <div class="md:col-span-5 relative h-64 md:h-full min-h-[280px]">
+                            <img src="https://placehold.co/600x450/061E38/F4EFEB?text=Personal+Training+Support" alt="健康パーソナルプログラム" class="w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-deepnavy-900 text-gold-500 text-sm font-serif font-bold px-3.5 py-1.5 rounded-xl shadow border border-gold-500/30">
+                                03 パネル4
+                            </div>
+                        </div>
+                        <div class="md:col-span-7 p-6 md:p-8">
+                            <h4 class="text-base md:text-lg font-serif font-bold text-deepnavy-900 mb-1">西院整骨院専門 健康パーソナルプログラム</h4>
+                            <p class="text-xs font-bold text-gold-600 mb-3">～なりたい身体を私たちと共に～</p>
+                            <p class="text-xs md:text-sm text-slate-600 leading-relaxed mb-6">
+                                痛みが取れた後、「二度と痛まない身体」を作るための運動指導プロジェクト。「一人では運動が続かない」「どんな運動が自分に合っているかわからない」という声から誕生しました。身体のプロである先生が、あなたの目的に合わせた専用の運動メニューを立案し、マンツーマンでサポートします。
+                            </p>
+                            <div class="text-center bg-deepnavy-900 text-white py-3 rounded-xl text-xs font-serif font-bold tracking-wider">
+                                痛みのない毎日が、人生を変える。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 回復ロードマップ -->
+        <section class="hero-gradient text-white py-16 px-6 relative overflow-hidden">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <span class="text-xs font-bold text-gold-500 tracking-widest uppercase block mb-2">Roadmap</span>
+                    <h3 class="text-2xl md:text-3xl font-serif font-bold tracking-wide">あなたの回復ロードマップ</h3>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6 relative z-10">
+                    <div class="bg-white/5 border border-gold-500/30 p-6 rounded-3xl backdrop-blur-md">
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="bg-gold-500 text-deepnavy-900 text-xs font-serif font-bold px-3 py-1 rounded-xl">Step.1</span>
+                            <h4 class="text-sm md:text-base font-serif font-bold">痛みを取る（初期）</h4>
+                        </div>
+                        <p class="text-xs md:text-sm text-slate-200 leading-relaxed">
+                            まずは辛い症状を抑え、炎症を鎮める期間です。間隔を空けず、詰めて通院していただくことが早期回復の鍵です。
+                        </p>
+                    </div>
+
+                    <div class="bg-white/5 border border-gold-500/30 p-6 rounded-3xl backdrop-blur-md">
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="bg-gold-500 text-deepnavy-900 text-xs font-serif font-bold px-3 py-1 rounded-xl">Step.2</span>
+                            <h4 class="text-sm md:text-base font-serif font-bold">根本改善期（中期）</h4>
+                        </div>
+                        <p class="text-xs md:text-sm text-slate-200 leading-relaxed">
+                            痛みが引いてきたら、背骨ゆがみ矯正などで、痛みの原因を正しい位置に定着させます。
+                        </p>
+                    </div>
+
+                    <div class="bg-white/5 border border-gold-500/30 p-6 rounded-3xl backdrop-blur-md">
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="bg-gold-500 text-deepnavy-900 text-xs font-serif font-bold px-3 py-1 rounded-xl">Step.3</span>
+                            <h4 class="text-sm md:text-base font-serif font-bold">メンテナンス期（後期）</h4>
+                        </div>
+                        <p class="text-xs md:text-sm text-slate-200 leading-relaxed">
+                            良い状態をキープし、再発を防ぎます。健康パーソナルプログラムを取り入れ、動ける身体・疲れない身体を完成させます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center text-sm md:text-base font-serif font-bold text-gold-500 tracking-widest">
+                    ーー 痛みのない毎日が、人生を変える。ーー
+                </div>
+            </div>
+        </section>
+
+        <!-- ご予約・アクセス・お問い合わせ (パネル6) -->
+        <section class="max-w-5xl mx-auto px-6 py-16">
+            <div class="text-center mb-8">
+                <span class="text-xs font-bold text-gold-600 tracking-widest uppercase block mb-1">Panel 6 (Back Cover)</span>
+                <h3 class="text-xl md:text-2xl font-serif font-bold text-deepnavy-900">ご予約・アクセス・お問い合わせ</h3>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-3xl p-8 luxury-shadow border border-slate-200/60 flex flex-col justify-between">
+                    <div>
+                        <div class="text-center mb-6">
+                            <span class="bg-deepnavy-900 text-gold-500 text-xs font-serif font-bold px-5 py-1.5 rounded-full uppercase tracking-widest border border-gold-500/30">
+                                完全予約制
+                            </span>
+                            <p class="text-xs md:text-sm text-slate-500 leading-relaxed mt-4">
+                                当院は、お一人おひとりに責任を持って施術を行うため「完全予約制」を導入しております。待ち時間をなくすためにも、次回のご予約はお帰りの際にお取りいただくか、LINE・お電話にてお願いいたします。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <a href="tel:0753232773" class="w-full bg-deepnavy-900 hover:bg-deepnavy-800 text-white font-bold py-4 px-6 rounded-2xl shadow-md flex items-center justify-center space-x-4 transition transform active:scale-95 border border-gold-500/30">
+                            <i class="fa-solid fa-phone text-gold-500 text-lg"></i>
+                            <div class="text-left">
+                                <div class="text-xs text-slate-300 font-normal">お電話でのご予約・ご相談</div>
+                                <div class="text-base md:text-lg tracking-wider font-bold">075-323-2773</div>
+                            </div>
+                        </a>
+
+                        <a href="https://lin.ee/SSiLSTt" target="_blank" rel="noopener noreferrer" class="w-full bg-[#06C755] hover:bg-[#05b34c] text-white font-bold py-4 px-6 rounded-2xl shadow-md flex items-center justify-center space-x-3 transition transform active:scale-95">
+                            <i class="fa-brands fa-line text-2xl"></i>
+                            <span class="text-sm md:text-base font-bold tracking-wider">LINEから次回予約・ご相談</span>
+                        </a>
+
+                        <p class="text-xs text-slate-400 text-center leading-relaxed">
+                            ※急患対応などでご予約時間が前後する場合がございます。<br>
+                            ※ご予約の変更・キャンセルは、必ず前日までにご連絡をお願いいたします。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl p-8 luxury-shadow border border-slate-200/60 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sm md:text-base font-serif font-bold text-deepnavy-900 mb-4 pb-3 border-b border-slate-100 flex items-center">
+                            <i class="fa-solid fa-location-dot text-gold-600 mr-2.5 text-lg"></i>西院整骨院 アクセス
+                        </h3>
+                        <p class="text-sm text-slate-800 font-bold mb-1">〒615-0021</p>
+                        <p class="text-xs md:text-sm text-slate-600 mb-4 leading-relaxed">京都府京都市右京区西院平町25<br>ライフプラザ西大路四条1階</p>
+                        
+                        <div class="rounded-2xl overflow-hidden border border-slate-200/60 mb-4 shadow-inner relative w-full h-52 bg-slate-100">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.377609204383!2d135.7336715768894!3d35.0025219728021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010787e9eb7b37%3A0x6b17c2f0f42194f1!2z6KW_6Zmi5b4p5p2x6Kqe!5e0!3m2!1sja!2sjp!4v1710000000000!5m2!1sja!2sjp" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="西院整骨院 Googleマップ">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="text-xs text-slate-600 space-y-1.5 pl-1 bg-cream-50 p-4 rounded-2xl border border-slate-200/60">
+                        <p>・阪急京都線「西院」駅 徒歩4分</p>
+                        <p>・嵐電嵐山本線「西院」駅 徒歩4分</p>
+                        <p>・ライフプラザ西大路四条1階</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- フッター -->
+        <footer class="bg-deepnavy-900 text-slate-400 text-center py-10 px-6 text-xs border-t border-gold-500/20">
+            <div class="max-w-4xl mx-auto flex flex-col items-center justify-center space-y-3">
+                <div class="w-12 h-12 bg-white rounded-xl p-1 flex items-center justify-center border border-gold-500/40 shadow">
+                    <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 12 L15 38 L25 38 L25 80 L75 80 L75 38 L85 38 Z" fill="#0A2A4A"/>
+                        <circle cx="45" cy="58" r="16" fill="#C5A059"/>
+                        <circle cx="39" cy="54" r="2" fill="#FFFFFF"/>
+                        <circle cx="51" cy="54" r="2" fill="#FFFFFF"/>
+                        <path d="M 40 62 Q 45 68 50 62" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <circle cx="70" cy="64" r="11" fill="#C5A059"/>
+                        <circle cx="66" cy="61" r="1.5" fill="#FFFFFF"/>
+                        <circle cx="74" cy="61" r="1.5" fill="#FFFFFF"/>
+                        <path d="M 67 67 Q 70 71 73 67" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <p class="text-white font-serif font-bold text-sm tracking-wider">西院整骨院</p>
+                <p class="text-slate-400">京都府京都市右京区西院平町25 ライフプラザ西大路四条1階</p>
+                <p class="text-slate-500 text-[11px]">&copy; Saiin Seikotsuin All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- スマホ・タブレット用固定フッターCTAバー -->
+    <div class="fixed bottom-0 left-0 right-0 bg-deepnavy-900/95 backdrop-blur-md border-t border-gold-500/30 p-3 flex items-center justify-between z-50 shadow-2xl lg:hidden">
+        <a href="tel:0753232773" class="flex-1 bg-deepnavy-800 text-white text-center py-3 rounded-xl text-xs font-bold mr-2 flex items-center justify-center space-x-1.5 border border-gold-500/30 shadow">
+            <i class="fa-solid fa-phone text-gold-500"></i>
+            <span>お電話予約</span>
+        </a>
+        <a href="https://lin.ee/SSiLSTt" target="_blank" rel="noopener noreferrer" class="flex-1 bg-[#06C755] text-white text-center py-3 rounded-xl text-xs font-bold ml-2 flex items-center justify-center space-x-1.5 shadow">
+            <i class="fa-brands fa-line text-base"></i>
+            <span>LINE予約</span>
+        </a>
+    </div>
+
+</body>
+</html>
