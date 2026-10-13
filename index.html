@@ -137,8 +137,9 @@
                 </p>
 
                 <div class="rounded-3xl overflow-hidden shadow-2xl border border-white/10 relative group max-w-3xl mx-auto bg-deepnavy-800">
-                    <img src="img_cover.JPG" alt="西院整骨院 外観" class="w-full object-contain sm:object-cover max-h-[450px] sm:h-80 md:h-96 opacity-95 transition duration-700 group-hover:scale-105" onerror="this.onerror=null; this.src='https://placehold.co/1200x520/0A2A4A/F4EFEB?text=img_cover.JPG';">
-                    <div class="absolute inset-0 bg-gradient-to-t from-deepnavy-900 via-deepnavy-900/30 to-transparent flex flex-col justify-end p-6 sm:p-10 text-left">
+                    <!-- object-topを指定し、上部（看板）が切れないように修正 -->
+                    <img src="img_cover.JPG" alt="西院整骨院 外観" class="w-full h-72 sm:h-80 md:h-96 object-cover object-top opacity-95 transition duration-700 group-hover:scale-105" onerror="this.onerror=null; this.src='https://placehold.co/1200x520/0A2A4A/F4EFEB?text=img_cover.JPG';">
+                    <div class="absolute inset-0 bg-gradient-to-t from-deepnavy-900 via-deepnavy-900/30 to-transparent flex flex-col justify-end p-6 sm:p-10 text-left pointer-events-none">
                         <p class="text-white text-xl sm:text-2xl md:text-3xl font-serif font-bold">治療のご案内 ～あなたの本来の健康を取り戻すために～</p>
                         <p class="text-sm sm:text-base text-slate-300 mt-1.5 italic font-serif">For a Healthy Life</p>
                     </div>
@@ -161,7 +162,7 @@
                 <div class="grid md:grid-cols-12 gap-8 sm:gap-12 items-center mb-12">
                     <div class="md:col-span-5">
                         <div class="rounded-3xl overflow-hidden shadow-md border border-slate-200/80 relative bg-cream-100 group">
-                            <img src="img_reaction.JPG" alt="好転反応のイメージ" class="w-full object-contain sm:object-cover max-h-[400px] sm:h-80 transition duration-500 group-hover:scale-105" onerror="this.onerror=null; this.src='https://placehold.co/600x450/E2D9CE/0A2A4A?text=img_reaction.JPG';">
+                            <img src="img_reaction.JPG" alt="好転反応のイメージ" class="w-full h-68 sm:h-80 object-cover object-top transition duration-500 group-hover:scale-105" onerror="this.onerror=null; this.src='https://placehold.co/600x450/E2D9CE/0A2A4A?text=img_reaction.JPG';">
                             <div class="absolute bottom-4 left-4 bg-deepnavy-900/90 backdrop-blur-sm text-gold-500 text-sm sm:text-base px-4 py-2 rounded-xl font-bold shadow">
                                 自然な反応と回復の証拠
                             </div>
@@ -228,8 +229,8 @@
                 <div class="space-y-12 sm:space-y-16">
                     <!-- アプローチ 01 -->
                     <div class="bg-cream-50 rounded-3xl overflow-hidden luxury-shadow border border-slate-200/60 grid md:grid-cols-12 gap-0 items-center">
-                        <div class="md:col-span-5 relative h-auto sm:h-80 md:h-full min-h-[300px]">
-                            <img src="img_spine.JPG" alt="背骨ゆがみ矯正法" class="w-full object-contain sm:object-cover h-full" onerror="this.onerror=null; this.src='https://placehold.co/600x450/113B66/F4EFEB?text=img_spine.JPG';">
+                        <div class="md:col-span-5 relative h-72 sm:h-80 md:h-full min-h-[340px]">
+                            <img src="img_spine.JPG" alt="背骨ゆがみ矯正法" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/600x450/113B66/F4EFEB?text=img_spine.JPG';">
                         </div>
                         <div class="md:col-span-7 p-8 sm:p-12">
                             <h4 class="text-2xl sm:text-3xl font-serif font-bold text-deepnavy-900 mb-2">背骨ゆがみ矯正法</h4>
@@ -258,8 +259,8 @@
 
                     <!-- アプローチ 02 -->
                     <div class="bg-cream-50 rounded-3xl overflow-hidden luxury-shadow border border-slate-200/60 grid md:grid-cols-12 gap-0 items-center">
-                        <div class="md:col-span-5 relative h-auto sm:h-80 md:h-full min-h-[300px]">
-                            <img src="img_shockmaster.JPG" alt="ショックマスター" class="w-full object-contain sm:object-cover h-full" onerror="this.onerror=null; this.src='https://placehold.co/600x450/0A2A4A/F4EFEB?text=img_shockmaster.JPG';">
+                        <div class="md:col-span-5 relative h-72 sm:h-80 md:h-full min-h-[340px]">
+                            <img src="img_shockmaster.JPG" alt="ショックマスター" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/600x450/0A2A4A/F4EFEB?text=img_shockmaster.JPG';">
                         </div>
                         <div class="md:col-span-7 p-8 sm:p-12">
                             <h4 class="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-deepnavy-900 mb-2 whitespace-nowrap">ショックマスター（体外衝撃波）</h4>
@@ -288,8 +289,8 @@
 
                     <!-- アプローチ 03 -->
                     <div class="bg-cream-50 rounded-3xl overflow-hidden luxury-shadow border border-slate-200/60 grid md:grid-cols-12 gap-0 items-center">
-                        <div class="md:col-span-5 relative h-auto sm:h-80 md:h-full min-h-[300px]">
-                            <img src="img_personal.JPG" alt="健康パーソナルプログラム" class="w-full object-contain sm:object-cover h-full" onerror="this.onerror=null; this.src='https://placehold.co/600x450/061E38/F4EFEB?text=img_personal.JPG';">
+                        <div class="md:col-span-5 relative h-72 sm:h-80 md:h-full min-h-[340px]">
+                            <img src="img_personal.JPG" alt="健康パーソナルプログラム" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/600x450/061E38/F4EFEB?text=img_personal.JPG';">
                         </div>
                         <div class="md:col-span-7 p-8 sm:p-12">
                             <h4 class="text-2xl sm:text-3xl font-serif font-bold text-deepnavy-900 mb-2">西院整骨院専門<br>健康パーソナルプログラム</h4>
